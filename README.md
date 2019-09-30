@@ -1,8 +1,8 @@
 # simon.ino
-Un juego de memorizar colores SIMON DICE (Simon Says) impreso en 3D.
+Un Shield (Escudo) para Arduino Uno del juego de memorizar colores SIMON DICE (Simon Says).
 
 
-**Atención:** Este Proyecto esta en desarroyo, se iran subien las actualizaciones poco a poco.
+**Atención:** Este Proyecto esta en desarroyo, se iran subiendo las actualizaciones poco a poco.
 Gracias por su comprensión.
 
 
