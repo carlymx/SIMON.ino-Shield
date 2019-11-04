@@ -1,11 +1,12 @@
-# simon.ino
-[English](README.md) - [Español](README.es-ES.md)
+<img src="imgs/logo/Web/10x/simon-logo.png" alt="logo" width="400"/>
 
-A Shield for Arduino One of the SIMON DICE (Simon Says) color memorization game.
+[![](https://img.shields.io/badge/Language%3A-English-blue "English")](README.md)  [![](https://img.shields.io/badge/Language%3A-Español-red "Español")](README.es-ES.md)
 
+*Simon.ino* is a Shield for Arduino Uno inspired by the SIMON DICE (Simon Says) color memorization game.
 
-**Attention:** This Project is under development, updates will be uploaded little by little.
-Thanks for your understanding.
+It is a printed circuit board `PCB` designed and originally intended as a student project so that young people have a simple base with lights, buttons a small` I2C` screen and `Bluetooth` connection with which to work easily playing with the different platforms like [`Arduino IDE`](https://www.arduino.cc/en/main/software) or [` ArduinoBlocks`](http://www.arduinoblocks.com/) and the like.
+
+**Attention:** This Project is under development, updates will be uploaded little by little. Thanks for your understanding.
 
 
 GitHub: https://github.com/carlymx/simon.ino
