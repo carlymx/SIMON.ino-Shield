@@ -1,9 +1,11 @@
 # simon.ino
-Un Shield (Escudo) para Arduino Uno del juego de memorizar colores SIMON DICE (Simon Says).
+[English](README.md) - [Español](README.es-ES.md)
+
+A Shield for Arduino One of the SIMON DICE (Simon Says) color memorization game.
 
 
-**Atención:** Este Proyecto esta en desarroyo, se iran subiendo las actualizaciones poco a poco.
-Gracias por su comprensión.
+**Attention:** This Project is under development, updates will be uploaded little by little.
+Thanks for your understanding.
 
 
 GitHub: https://github.com/carlymx/simon.ino
