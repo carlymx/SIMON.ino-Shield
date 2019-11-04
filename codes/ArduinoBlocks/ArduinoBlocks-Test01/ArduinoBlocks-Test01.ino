@@ -18,10 +18,10 @@ double LED_AMARILLO;
 double BTN_AZUL;
 double BUZZER;
 double BTN_AMARILLO;
+double LED_ON;
 double SW_UP;
 double SW_DOWN;
 double SW_OK;
-double LED_ON;
 
 SoftwareSerial bt_serial(0,7);
 Adafruit_SSD1306 oled_1(128,64, &Wire,-1);
@@ -46,10 +46,12 @@ bt_serial.begin(9600);
   oled_1.begin(SSD1306_SWITCHCAPVCC,0x3C);
 
 pinMode(6, OUTPUT);
+pinMode(A0, INPUT);
+pinMode(A1, INPUT);
+pinMode(A2, INPUT);
     oled_1.clearDisplay(); oled_1.display();
     oled_1.clearDisplay(); oled_1.drawBitmap(0,0,&oled_data_0[2],oled_data_0[0], oled_data_0[1],WHITE); oled_1.display();
     Serial.println(String("Simon.ino Shield Test-01"));
-    
   LED_VERDE = 2;
   LED_ROJO = 3;
   LED_AZUL = 4;
@@ -63,7 +65,6 @@ pinMode(6, OUTPUT);
   SW_UP = 0;
   SW_DOWN = 1;
   SW_OK = 2;
-  
     fnc_dynamic_digitalWrite(LED_VERDE, HIGH);
     TimerFreeTone(6,500,500);
     delay(1000);
@@ -127,7 +128,7 @@ void loop()
       fnc_dynamic_digitalWrite(LED_AMARILLO, LOW);
 
     }
-/*    if (fnc_dynamic_digitalRead(SW_UP)) {
+    if (digitalRead(A0)) {
       fnc_dynamic_digitalWrite(LED_VERDE, HIGH);
       fnc_dynamic_digitalWrite(LED_ROJO, HIGH);
       Serial.println(String("Boton UP"));
@@ -139,7 +140,7 @@ void loop()
       fnc_dynamic_digitalWrite(BTN_ROJO, LOW);
 
     }
-    if (fnc_dynamic_digitalRead(SW_DOWN)) {
+    if (digitalRead(A1)) {
       fnc_dynamic_digitalWrite(LED_AMARILLO, HIGH);
       fnc_dynamic_digitalWrite(LED_AZUL, HIGH);
       Serial.println(String("Boton Down"));
@@ -151,7 +152,7 @@ void loop()
       fnc_dynamic_digitalWrite(LED_AZUL, LOW);
 
     }
-    if (fnc_dynamic_digitalRead(SW_OK)) {
+    if (digitalRead(A2)) {
       fnc_dynamic_digitalWrite(LED_ON, HIGH);
       Serial.println(String("Boton OK"));
       oled_1.clearDisplay(); oled_1.display();
@@ -161,7 +162,7 @@ void loop()
       fnc_dynamic_digitalWrite(LED_ON, LOW);
 
     }
-*/
+
 }
   
-    
+  
