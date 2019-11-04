@@ -1,7 +1,6 @@
-![logo](imgs\logo\Web\10x\simonino-logo.png)
+<img src="imgs/logo/Web/10x/simon-logo.png" alt="logo" width="400"/>
 
-# **simon.ino**
-[![English](https://img.shields.io/badge/Language%3A-English-blue)](README.md) - [![Español](https://img.shields.io/badge/Language%3A-Español-red)](README.es-ES.md)
+[![](https://img.shields.io/badge/Language%3A-English-blue "English")](README.md)  [![](https://img.shields.io/badge/Language%3A-Español-red "Español")](README.es-ES.md)
 
 *Simon.ino* es un Shield (Escudo) para Arduino Uno inspirado en el juego de memorizar colores SIMON DICE (Simon Says).
 
