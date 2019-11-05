@@ -2,6 +2,8 @@
 
 [![](https://img.shields.io/badge/Language%3A-English-blue "English")](README.md)  [![](https://img.shields.io/badge/Language%3A-Español-red "Español")](README.es-ES.md)
 
+![](https://img.shields.io/badge/PCB%3A-v1.0.2-green "PCB Version") ![](https://img.shields.io/badge/Firmware%3A-v0.1a-green "Firmware Version")
+
 *Simon.ino* es un Shield (Escudo) para Arduino Uno inspirado en el juego de memorizar colores SIMON DICE (Simon Says).
 
 Es una placa `PCB` de circuito impreso diseñada y pensada originalmente como proyecto estudiantil para que los jóvenes tengan una base sencilla con luces, botones una pequeña pantalla `I2C` y conexión `Bluetooth` con la cual trabajar jugando con facilidad con las diferentes plataformas como [`Arduino IDE`](https://www.arduino.cc/en/main/software) o [`ArduinoBlocks`](http://www.arduinoblocks.com/) y similares.  
