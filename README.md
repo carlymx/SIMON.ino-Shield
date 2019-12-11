@@ -25,33 +25,33 @@ This project can be used by parents, teachers and students at home and school to
 
 - [x] Functional "PCB Shield" board.
   - [x] 4 Buttons with illumination or
-  - [x] 4 push buttons + 4 colored LEDs.
-  - [x] 3 control buttons.
-  - [x] 1 Led on/off.
-  - [x] 1 Led Aux.
-  - [x] 1 OLED 0.96" I2C.
-  - [x] 1 Bluetooth HC5.
-  - [x] 1 Analog control.
-  - [x] 1 i2C Aux port.
-  - [ ] ...
-- [] Firmware
-  - [x] Test to functions [[Link](http://www.arduinoblocks.com/web/project/159761)].
-  - [ ] SIMON.ino simple game.
-  - [ ] SIMON.ino Multiplayer game.
-  - [ ] Multiplayer Bluetooth game.
-  - [ ] Pong game.
-  - [ ] Tetris game.
-  - [ ] Other games.
-  - [ ] Other Community Purposes.
+  - [x] 4 push buttons + 4 colored LEDs.
+  - [x] 3 control buttons.
+  - [x] 1 Led on/off.
+  - [x] 1 Led Aux.
+  - [ ] 1 OLED 0.96" I2C.
+  - [ ] 1 Bluetooth HC5.
+  - [ ] 1 Analog control.
+  - [ ] 1 i2C Aux port.
+  - [ ] ...
+- [ ] Firmware
+  - [ ] Test to functions [[Link](http://www.arduinoblocks.com/web/project/159761)].
+  - [ ] SIMON.ino simple game.
+  - [ ] SIMON.ino Multiplayer game.
+  - [ ] Multiplayer Bluetooth game.
+  - [ ] Pong game.
+  - [ ] Tetris game.
+  - [ ] Other games.
+  - [ ] Other Community Purposes.
 - [ ] Web Space.
-  - [ ] Space where to give visibility to the project.
-  - [ ] A record of players.
-  - [ ] Ranking, Records.
-  - [ ] Organize Multiplayer Tournaments.
-  - [ ] A place where the community can contribute.
-  - [ ] ...
+  - [ ] Space where to give visibility to the project.
+  - [ ] A record of players.
+  - [ ] Ranking, Records.
+  - [ ] Organize Multiplayer Tournaments.
+  - [ ] A place where the community can contribute.
+  - [ ] ...
 - [ ] Community
-  - [ ] ...
+  - [ ] ...
 
 **URLs del proyecto:**   
 GitHub: https://github.com/carlymx/simon.ino   
