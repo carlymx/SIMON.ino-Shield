@@ -35,7 +35,7 @@ This project can be used by parents, teachers and students at home and school to
   - [x] 1 i2C Aux port.
   - [ ] ...
 - [ ] Firmware
-  - [ ] Test to functions [[Link](http://www.arduinoblocks.com/web/project/159761)].
+  - [x] Test to functions [[Link_local](https://github.com/carlymx/SIMON.ino-Shield/tree/master/codes/ArduinoBlocks/ArduinoBlocks-Test01)][[Link_ArduinobBlocks](http://www.arduinoblocks.com/web/project/159761)].
   - [ ] SIMON.ino simple game.
   - [ ] SIMON.ino Multiplayer game.
   - [ ] Multiplayer Bluetooth game.

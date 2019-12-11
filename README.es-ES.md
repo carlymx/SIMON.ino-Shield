@@ -32,7 +32,7 @@ Este proyecto puede ser usado por padres, docentes y alumnos en casa y la escuel
   - [x] 1 Puerto i2C Aux
   - [ ] ...
 - [ ] Firmware
-  - [x] Test para probar funciones [[Link](http://www.arduinoblocks.com/web/project/159761)].
+  - [x] Test para probar funciones [[Link_local](https://github.com/carlymx/SIMON.ino-Shield/tree/master/codes/ArduinoBlocks/ArduinoBlocks-Test01)][[Link_ArduinobBlocks](http://www.arduinoblocks.com/web/project/159761)].
   - [ ] Juego del SIMON.ino simple.
   - [ ] Juego del SIMON.ino Multiplayer.
   - [ ] Juego Multiplayer Bluetooth.
