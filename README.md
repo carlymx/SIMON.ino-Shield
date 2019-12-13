@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/PCB%3A-v1.0.3-green "PCB Version") ![](https://img.shields.io/badge/Firmware%3A-v0.1a-green "Firmware Version")
 
 
-**<span style="color:red">Attention:</span>** This project is currently under development, if you want to contribute, please let us know and feel free to submit your ideas and/or code.  
+**<span style="color:red">Attention:</span>** This project is currently under development. If you want to contribute, please let us know. Feel free to submit your ideas and/or code.  
 Thank you.
 
 
