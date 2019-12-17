@@ -48,7 +48,7 @@ int turnOnLED  = 10000;
 const int turnOffLED = 0;
 
 byte sequence[256];
-int level = 0;
+int level = 1;
 int machinePulsations = 0;
 int currentPulsation = 0;
 
@@ -212,12 +212,18 @@ void turnUSER() {
 // Muestra las puntuación
 void showScore() {
   oled_1.writeFillRect(0, 40, 128, 24, BLACK); oled_1.display();
-  oled_1.setCursor(0,40); oled_1.print("Nivel: "); 
-  oled_1.setCursor(0,48); oled_1.print("Pulsaciones: "); 
+  char tmpString[3] = {0};
+  char txtScore[20] = {0};
+
+  
+
+  sprintf(tmpString,"%d", machinePulsations);
+  strcpy(txtScore, "Pulsaciones: ");
+  strcat(txtScore, tmpString);
+  
+  oled_1.setCursor(0,48); oled_1.print(txtScore); 
   oled_1.display();
 }
-
-
 
 // Muestra aviso cuando el usuario falla
 void userFail() {
