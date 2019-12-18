@@ -2,6 +2,7 @@
  * ArduinoBlocks.com
  * Project: SIMON.ino Shield - Test01
  * Author: Carlos Hernández
+ * GitHub: https://github.com/carlymx/SIMON.ino-Shield
  * URL: http://www.arduinoblocks.com/web/project/181371
  */
 
@@ -10,7 +11,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include <ABLocks_TimerFreeTone.h>
+#include <TimerFreeTone.h>
 
 int ValorA3;
 
@@ -44,6 +45,9 @@ int fnc_dynamic_digitalRead(int _pin){
 
 void setup()
 {
+
+delay(500);
+  
   Serial.begin(9600);
 
 bt_serial.begin(9600);
@@ -73,6 +77,9 @@ pinMode(A2, INPUT);
   oled_1.clearDisplay(); oled_1.display();
   oled_1.clearDisplay(); oled_1.drawBitmap(0,0,&oled_data_0[2],oled_data_0[0], oled_data_0[1],WHITE); oled_1.display();
   Serial.println(String("Simon.ino Shield Test-01"));
+  
+  delay(500);
+  
     fnc_dynamic_digitalWrite(LED_VERDE, HIGH);
     TimerFreeTone(6,500,250);
     delay(500);

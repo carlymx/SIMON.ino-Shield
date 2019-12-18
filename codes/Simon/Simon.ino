@@ -2,12 +2,13 @@
  * Project: SIMON.ino Shield - Simon v0.1
  * Author: Carlos Hernández
  * Programador: Agustín Gallego Ordoñez
+ * GitHub: https://github.com/carlymx/SIMON.ino-Shield
  */
 
 #include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
-#include <ABLocks_TimerFreeTone.h>
+#include <Adafruit_GFX.h>       // https://github.com/adafruit/Adafruit-GFX-Library
+#include <Adafruit_SSD1306.h>   // https://github.com/adafruit/Adafruit_SSD1306
+#include <TimerFreeTone.h>      // https://bitbucket.org/teckel12/arduino-timer-free-tone/downloads/
 
 
 // Declara los pines
@@ -88,9 +89,11 @@ void setup()
     
   oled_1.clearDisplay(); oled_1.display();
   oled_1.clearDisplay(); oled_1.drawBitmap(0,0,&simonLogo[2],simonLogo[0], simonLogo[1],WHITE); oled_1.display();
+  delay(500);
 
   // Muestra el mensaje de bienvenida
   showWelcome();
+  delay(500);
 
   // Genera la secuencia
   generateSequence();
