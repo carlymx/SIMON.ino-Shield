@@ -20,34 +20,38 @@ Este proyecto puede ser usado por padres, docentes y alumnos en casa y la escuel
 
 ## Que se quiere conseguir:
 
-- [x] Placa "PCB Escudo" funcional.
-  - [x] 4 Pulsadores con iluminación o
-  - [x] 4 Pulsadores + 4 Leds de colores.
-  - [x] 3 Pulsadores de control.
-  - [x] 1 Led on/off.
-  - [x] 1 Led Aux
-  - [x] 1 OLED 0.96" I2C
-  - [x] 1 Bluetooth HC5
-  - [x] 1 Control analógico.
-  - [x] 1 Puerto i2C Aux
-  - [ ] ...
-- [ ] Firmware
+- [ ] Hardware:
+  - [x] Placa "PCB Escudo" funcional.
+    - [x] 4 Pulsadores con iluminación o
+    - [x] 4 Pulsadores + 4 Leds de colores.
+    - [x] 3 Pulsadores de control.
+    - [x] 1 Led on/off.
+    - [x] 1 Led Aux
+    - [x] 1 OLED 0.96" I2C
+    - [x] 1 Bluetooth HC5
+    - [x] 1 Control analógico.
+    - [x] 1 Puerto i2C Aux
+    - [ ] ...
+  - [ ] Caja Impresa.
+    - [ ] Caja simple.
+    - [ ] Caja para bateria 9v.
+- [ ] Firmware:
   - [x] Test para probar funciones [[Link_local](https://github.com/carlymx/SIMON.ino-Shield/tree/master/codes/ArduinoBlocks/ArduinoBlocks-Test01)][[Link_ArduinobBlocks](http://www.arduinoblocks.com/web/project/159761)].
-  - [ ] Juego del SIMON.ino simple.
+  - [x] Juego del SIMON.ino simple.
   - [ ] Juego del SIMON.ino Multiplayer.
   - [ ] Juego Multiplayer Bluetooth.
   - [ ] juego del Pong.
   - [ ] Juego del Tetris.
   - [ ] Otros Juegos.
   - [ ] Otros Propósitos de la comunidad.
-- [ ] Espacio Web.
+- [ ] Espacio Web:
   - [ ] Espacio donde dar visibilidad al proyecto.
   - [ ] Un registro de jugadores.
   - [ ] Ranking, Records.
   - [ ] Organizar Torneos Multiplayer.
   - [ ] Un sitio donde la comunidad pueda aportar.
   - [ ] ...
-- [ ] Comunidad
+- [ ] Comunidad:
   - [ ] ...
 
 **URLs del proyecto:**   
