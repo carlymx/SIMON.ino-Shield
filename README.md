@@ -3,6 +3,7 @@
 [![](https://img.shields.io/badge/Language%3A-English-blue "English")](README.md)  [![](https://img.shields.io/badge/Language%3A-Español-red "Español")](README.es-ES.md)
 
 ![](https://img.shields.io/badge/PCB%3A-v1.0.3-green "PCB Version") ![](https://img.shields.io/badge/Firmware%3A-v0.1a-green "Firmware Version")
+![https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9TT7E7XWEDAH8&source=url](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)
 
 
 **<span style="color:red">Attention:</span>** This project is currently under development. If you want to contribute, please let us know. Feel free to submit your ideas and/or code.  
